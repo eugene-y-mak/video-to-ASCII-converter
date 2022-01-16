@@ -2,7 +2,7 @@
  
 Accepts a given video file and converts it into a black and white ASCII art-ified version. Iterates through each frame of the video and does image processing on each, converting the processed frames into a finished video in .avi format. Supports easy changes to the size of the text and color of text versus color of background. Can process video of any length, though smaller text size and longer length will naturally take longer to process. 
 
-Example with the Opening of Neon Genesis Evangelion (480p, heavily compressed):
+Example with the Opening of Neon Genesis Evangelion (size 10 font, 480p, heavily compressed):
 
 https://www.youtube.com/watch?v=At92sumkqAk
 
