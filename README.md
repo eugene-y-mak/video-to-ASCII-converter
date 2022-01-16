@@ -38,6 +38,9 @@ Finally, iterate through a list of processed images and use OpenCV's VideoWriter
 
 -Auto detect whether to use white on black or black on white
 
+-Initial version of project was done in C++, but I could not get any monospaced fonts since HarfBuzz would not install no matter what I tried. Could be interesting to finish the C++ version to see if there are any significant speed ups in processing time. 
+
+
 # Bugs
 
 Processed image exhibits "scanlines," which may be due to how pixels are sampled from the original image to create the ASCII art version.
