@@ -6,7 +6,7 @@ Example with the Opening of Neon Genesis Evangelion (size 10 font, 480p, heavily
 
 https://www.youtube.com/watch?v=At92sumkqAk
 
-(This is a pretty difficult test case for ASCII art in general since the frames are quite detailed and the video very often flashes completely different frames. Program works best on simple looking videos with lots of "chunks" of one color)
+(This is a pretty difficult test case for ASCII art in general since the frames are quite detailed and the video very often flashes completely different frames. Program works best on simple looking videos with lots of "chunks" of one color. I have some examples but have yet to upload to YouTube)
 
 # Dependencies
 
