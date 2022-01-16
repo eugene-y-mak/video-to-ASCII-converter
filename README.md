@@ -6,6 +6,8 @@ Example with the Opening of Neon Genesis Evangelion (480p, heavily compressed):
 
 https://www.youtube.com/watch?v=At92sumkqAk
 
+(This is a pretty difficult test case for ASCII art in general since the frames are quite detailed and the video very often flashes completely different frames. Program works best on simple looking videos with lots of "chunks" of one color)
+
 # Dependencies
 
 -OpenCV
