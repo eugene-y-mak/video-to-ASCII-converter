@@ -22,9 +22,9 @@ https://www.youtube.com/watch?v=At92sumkqAk
 
 Uses the OpenCV library extensively. Uses the VideoCapture functions to accept and process the frames of a video. 
 
-Utilizes a hashmap that maps 10 specific ASCII characters to a certain brightness range, with a defined range for each value. Hashmap uses brightness value (of which there will be one, because image is processed in black and white) as a key to find the corresponding ASCII character mapping.
+Utilizes a numpy array (can also use hashmaps for other languages) that maps 10 specific ASCII characters to a certain brightness range, with a defined range for each value. Mapping uses brightness value (of which there will be one, because image is processed in black and white) as a key to find the corresponding ASCII character.
 
-Once this hashmap is initialized, use efficient Numpy matrix operations to convert the given image (being a frame of the video) into an ASCII art version of that image. Sample only every X pixels where X is the size of the text, since converting each pixel into a character enlarges the original image. Output an array of strings where each string is a row of the image. 
+Once this mapping is initialized, use efficient Numpy matrix operations to convert the given image (being a frame of the video) into an ASCII art version of that image. Sample only every X pixels where X is the size of the text, since converting each pixel into a character enlarges the original image. Output an array of strings where each string is a row of the image. 
 
 Use Pillow to draw these strings and create the image. Optionally, this image can be saved externally onto the drive, maybe to be converted to a video later using FFMPEG. Otherwise, the image is stored temporarily only in program memory and does not take explicit drive space. Critically, convert the image into RGB for video conversion later, or else strange behavior occurs...
 
