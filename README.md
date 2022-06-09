@@ -44,12 +44,18 @@ Finally, iterate through a list of processed images and use OpenCV's VideoWriter
 
 -Add GUI to easily adjust resolution (aka text size) of outputted video
 
--Auto detect whether to use white on black or black on white
+-Add way to go from youtube link to video download
 
--Initial version of project was done in C++, but I could not get any monospaced fonts since HarfBuzz would not install no matter what I tried. Could be interesting to finish the C++ version to see if there are any significant speed ups in processing time. 
+-Real time conversion through webcam?
 
+-Web front end of application
 
 # Bugs
 
 Processed image exhibits "scanlines," which may be due to how pixels are sampled from the original image to create the ASCII art version.
 
+# Notes
+
+-OpenCV and Numpy are just wrappers for C/C++ methods, so no point in doing this in C++. 
+
+-Aesthetically, black background and white text is more appealing
